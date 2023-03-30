@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+}
+
+.flexContenedor{
+    display: flex;
+}
+.divIzquierdo{
+ width: 25%;
+}
+.divCentro{
+ width: 50%;
+ height: 100%;
+ background-color: aqua;
+}
+.divDerecho{
+    width: 25%;
+    height: 100%;
+}
+.image{
+    width: 200px;
+    height: 100px;
+}
+.image1{
+    width: 400px;
+    height: 100px;
+}
+.image2{
+    height: 80px;
+    width: 100px;
+}
+.image3{
+    height:50px ;
+    width: 80px;
+}
+.image4{
+    height: 120px;
+    width: 80px;
+}
+.divHijoIzquierdo1{
+    background-color: black;
+    text-align: center;
+}
+.divHijoIzquierdo2{
+    font-size: medium;
+    background-color: rgb(150, 148, 146);
+    height: 100%;
+}
+.divCentro1{
+    height: 50px;
+}
+
+.buscardor1{
+    font-size: small;
+    text-align: center;
+}
+.buscardor2{
+    font-size: small;
+}
+.divCentro2{
+    width: 50%;
+}
+.divCentro3{
+    font-size: small;
+}
+.divCentro4{
+    height: 100px;
+    font-size: small;
+}
+.divHijoCentro1{
+   text-align: center;
+   font-size: small;
+}
+.divHijoCentro2{
+ flex-direction: column;
+ font-size: small;
+}
+.divHijoCentro3{
+    flex-direction: column;
+
+}
+.divHijoCentro4{
+    flex-direction: column;
+}
+.divHijoDerecho{
+    text-align: center;
+    background-color: brown;
+    font-size: medium;
+}
+.divHijoDerecho1{
+    text-align: center;
+    font-size: medium;
+}
+.divHijoDerecho2{
+    text-align: center;
+    font-size: medium;
+}
+.divHijoDerecho3{
+    font-size: medium;
+}
+.divHijoDerecho4{
+    text-align: center;
+    background-color: brown;
+}
